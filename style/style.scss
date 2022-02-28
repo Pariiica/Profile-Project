@@ -1,0 +1,114 @@
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+    color: white;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(14,1fr);
+    grid-template-rows: repeat(3,44em);
+
+    grid-template-areas: 
+    "space div1 div1 div1 div1 div1 div1 div2 div2 div2 div2 div2 div2"
+    "space div3 div3 div3 div3 div3 div3 div4 div4 div4 div4 div4 div4"
+    "space div5 div5 div5 div5 div5 div5 div6 div6 div6 div6 div6 div6";
+    text-align: center;
+}
+.div1{
+    background-color: black;
+    grid-area: div1;
+}
+.h1{
+    padding: 64px;
+}
+.nav{
+    padding: 64px;
+}
+.nav div{
+    padding: 20px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    :hover{
+        color: #60a3bc;
+        border-bottom: 0.5px solid #60a3bc;
+    }
+}
+.div2{
+    background-color: #607d8b;
+    grid-area: div2;
+    padding-top: 64px;
+}
+.profilephoto{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.psection{
+    padding: 50px;
+}
+.div3{
+    background-color: #f1f1f1;
+    grid-area: div3;
+    color: black;
+    padding-top: 64px;
+}
+.img{
+    padding: 60px 0;
+}
+.images{
+    width: 320px;
+    height: 120px;
+}
+.div4{
+    background-color: #3f51b5;
+    grid-area: div4;
+}
+.h4{
+    padding: 64px;
+}
+.table{
+    color: whitesmoke;
+    width: 100% ;
+    height: 300px;
+}
+
+th{
+    text-align: center;
+
+}
+td{
+    text-align: center;
+    
+}
+.div5{
+    background-color: #616161;
+    grid-area: div5;
+    padding:64px
+}
+.div5 div{
+    padding: 128px;
+}
+.div6{
+    background-color: #009688;
+    grid-area: div6;
+}
+.h6{
+    padding: 64px;
+}
+.input{
+    margin: 64px 20px;
+    color: black; 
+}
+input{
+    display: inline-block;
+    margin: 15px;
+    box-sizing: border-box;
+    height: 30px;
+    padding: 10px;
+    line-height: 1.5px;
+    border: solid 0.5px cornflowerblue;
+    border-radius: 10px;
+}
